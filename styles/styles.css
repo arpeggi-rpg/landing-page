@@ -1,7 +1,7 @@
 html body {
     margin: auto;
     font-family:Arial, Verdana, Tahoma, sans-serif;
-    color: white;
+    color: #F9FAF8;
     box-sizing: border-box;
 }
 
@@ -54,7 +54,6 @@ header ul {
 
 #heroText h1 {
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: bolder;
     margin-bottom: 6px;
 }
@@ -96,4 +95,69 @@ header ul {
 #gallery img {
     border: 5px solid #D43F6A;
     border-radius: 10px;
+}
+
+#quoteSection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#quoteSection blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quoteAuthor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: auto;
+    width: 60%;   
+}
+
+#callSection {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: auto;
+    width: 80%; 
+}
+
+#callToAction {
+    background-color: #3882F6;
+    border: 1px solid;
+    border-color: inherit;
+    border-radius: 5px;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%; 
+}
+
+#callText strong {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+#signUpButton {
+    border: 2px solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 16px 0px;
 }
